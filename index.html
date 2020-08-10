@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<form autocomplete="on">
+		<h2>The Form</h2>
+		<hr>
+		<div class="form-group">
+			<label for="user-name">User Name <span>*</span></label>
+			<input type="text" id="user-name" required="" placeholder="Enter Your UserName">
+		</div>
+		<div class="form-group">
+			<label for="password">Password <span>*</span></label>
+			<input type="password" id="password" required="" placeholder="Enter Your Password">
+		</div>
+		<div class="form-group">
+			<label for="email">Email <span>*</span></label>
+			<input type="email" id="email" required="" placeholder="Enter Your Email" autocomplete="off">
+		</div>
+		<div class="form-group">
+			<label for="number">Contact Number</label>
+			<input type="number" id="number" >
+		</div>
+		<div class="form-group">
+			<label for="birthdate">Birthdate</label>
+			<input type="date" id="birthdate">
+		</div>
+		<div class="form-group">
+			<label for="time">Time</label>
+			<input type="datetime-local" id="time">
+		</div>
+		<!-- <div class="form-group">
+			<label for="range">Range</label>
+			<input type="range" id="range">
+		</div>
+		<input type="range" value="5" min="1" max="10" id="range">
+		<div class="form-group">
+			<label for="range">Color</label>
+			<input type="color" id="range">
+		</div>
+		<input type="color" id="range"> -->
+		<div class="form-group">
+				<label for="text">Website</label>
+			<input type="url" id="country">
+		</div>
+		<div class="form-group">
+			<label for="country">Select Your Country</label>
+			<input list="country">
+			<datalist id="country">
+				<option value="Ban">Bangladesh</option>
+				<option value="Ban">Brazil</option>
+				<option value="Ban">India</option>
+				<option value="Ban">Pakistan</option>
+				<option value="Ban">USA</option>
+			</datalist>
+		</div>
+		<div class="form-group">
+			<input type="submit" value="Submit">
+		</div>
+	</form>
+	
+</body>
+</html>
